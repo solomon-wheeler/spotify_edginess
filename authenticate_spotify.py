@@ -14,7 +14,7 @@ dev_username = creds[2]
 def user_auth():
     scope = "user-top-read"
 
-    redirect = "http://localhost:8080"  # Can be changed for others, this is just the port I chose, this has to be
+    redirect = "#"  # Can be changed for others, this is just the port I chose, this has to be
     # configured as the redirect url for spotify in the developer portal
     user_token = util.prompt_for_user_token(username=dev_username,  # developer account username not client
                                             scope=scope,
